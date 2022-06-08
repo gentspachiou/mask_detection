@@ -7,7 +7,7 @@ The model is pretrained but removed the classification head and added another on
 it is trained further on a limited dataset of face masks annotated in Colab (in this case just
 25 images). 
 
-After transfer learning and training on the new images the model is used to detect images of faces with masks.
+After transfer learning and training on the new images the model is used to detect images of faces wearing masks.
 
 Furthermore if given a correctly annotated XML format images, a script is provided to obtain bounding box coordinates 
 and feed them directly to the the model for training or inference.
